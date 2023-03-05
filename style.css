@@ -25,7 +25,7 @@
 
 #chat-history .message .text {
   padding: 10px;
-  background-color: #00ff15;
+  background-color: #55efc4;
   border-radius: 5px;
   display: inline-block;
 }
@@ -33,7 +33,7 @@
 .welcome{
   text-align: left;
   padding: 10px;
-  background-color: #00ff15;
+  background-color: #55efc4;
   border-radius: 5px;
   display: inline-block;
   top: 0;
@@ -48,8 +48,8 @@
   flex-grow: 1;
   padding: 10px;
   border: none;
-  background-color: #00ff15;
-  border: 1px solid #00ff15;
+  background-color: #55efc4;
+  border: 1px solid #55efc4;
   border-radius: 10px;
   font-size: 16px;
 }
@@ -59,7 +59,7 @@
   padding: 10px;
   border: none;
   border-radius: 10px;
-  background-color: #00ff15;
+  background-color: #55efc4;
   color: #000000;
   font-size: 16px;
   cursor: pointer;
