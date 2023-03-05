@@ -37,7 +37,7 @@ function generateBotResponse(userMessage) {
         return 'How many hours of sleep did you get last night? (1-10)';
     }
 
-    else if(parseInt(userMessage) > 5 && validity == 1){
+    else if(parseInt(userMessage) >= 5 && validity == 1){
         mentality_factor += 1;
         return 'Have you been feeling any stress or tension lately? (yes/no)';
     }
