@@ -13,7 +13,7 @@ submitButton.addEventListener('click', function() {
 var mentality_factor = 0;
 var validity = 1;
 function generateBotResponse(userMessage) {
-    if(userMessage.toLowerCase() == 'hello')
+    if(userMessage.toLowerCase() == 'hello' || userMessage.toLowerCase() == 'hi')
         return 'Hello!. Can I ask some questions? (y/n)';
     else if(userMessage.toLowerCase() == 'how are you?')
         return 'I am fine, thank you!. Can I ask some questions? (y/n)';
@@ -58,7 +58,7 @@ function generateBotResponse(userMessage) {
     }
 
     else if(userMessage.toLowerCase() == 'yes i want' && validity == 1){
-        return 'Okay. Pleace hold on..';
+        return 'Okay. please contact 1789665420';
     }
 
     else if(userMessage.toLowerCase() == 'no i dont want' && validity == 1){
